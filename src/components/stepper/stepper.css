@@ -1,0 +1,13 @@
+
+.resim {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
+}
+
+.content-stepper {
+    display: flex;
+    gap: 20px;
+}

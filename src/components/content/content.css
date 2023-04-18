@@ -1,0 +1,11 @@
+
+.jcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

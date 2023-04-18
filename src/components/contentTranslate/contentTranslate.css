@@ -1,0 +1,12 @@
+
+.jcenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

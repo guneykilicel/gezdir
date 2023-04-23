@@ -79,9 +79,9 @@ export default function HorizontalLinearStepper({steps, stepsContent}) {
           const stepProps = {};
           const labelProps = {};
           if (isStepOptional(index)) {
-            labelProps.optional = (
-              <Typography variant="caption">Optional</Typography>
-            );
+            // labelProps.optional = (
+            //   <Typography variant="caption">Optional</Typography>
+            // );
           }
           if (isStepSkipped(index)) {
             stepProps.completed = false;
@@ -121,11 +121,11 @@ export default function HorizontalLinearStepper({steps, stepsContent}) {
               Geri
             </Button>
             <Box sx={{ flex: '1 1 auto' }} />
-            {isStepOptional(activeStep) && (
+            {/* {isStepOptional(activeStep) && (
               <Button color="inherit" onClick={handleSkip} sx={{ mr: 1 }}>
                 Geç
               </Button>
-            )}
+            )} */}
 
             <Button onClick={handleNext}>
               {activeStep === steps.length - 1 ? 'Bitti' : 'İleri'}

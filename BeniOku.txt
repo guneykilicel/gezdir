@@ -1,0 +1,29 @@
+Merhaba Hocam,
+
+Vize sınavım için React ile Seyehat Blog konseptinde bir site kodladım.
+Siteyi yazarken kullandığım yardımcı aracım 'mui' oldu. Açılır kapanır kart tasarımını 'mui' dan component olarak alıp animasyonunu kullanmak istedim, kart üzerinde tasarımsal değişiklikler yaptım.
+'mui' dan aldığım bir diğer component ise stepper oldu bu componenti kart komponentinin açılır kapanır bölümünün kapanır bölümüne koydum ve bu componentleri tekrar tekrar kullanıp kod karmaşası çıkartmamaları için dinamik hale getirdim veri etleri oluşturdum veri setlerine göre dinamik çalışabilecekleri hale getirdim.
+
+
+SİTEYİ AYAĞA KALDIRMA:
+
+Öncelikle gezdir klasöründe olduğunuzdan emin olun.
+
+Komut satırına 'npm start' yazdığınızda proje ayağa kalkacaktır. 
+(Veri setleri için ekstra bir node yapısı, backend yazmadım 'app.js' içerisinde bulabilirsiniz 'app.js' içerisinde yazmamın sebebi de React'ın hiyerarşik yapısı.)
+
+
+SİTE İÇİ GÖRSELLER:
+
+Site içi görselleri ekran görüntüsü alıp eklediğim 'SITE_ICI_GORSELLER' adlı dosyadan site içi görsellerine bakabilirsiniz.
+
+
+Her şey için teşekkürler hocam.
+
+
+
+
+Güney Kılıçel
+201816741
+3. Sınıf
+

@@ -4,11 +4,11 @@ import ContentCard from '../contentCard/ContentCard'
 
 import './contentTranslate.css';
 
-const contentTranslate = ({content, steps, stepsContent}) => {
+const contentTranslate = ({images, content, steps, stepsContent}) => {
     return (
         <div className='jcenter'>
             <div className='content'>
-                <ContentImageList />
+                <ContentImageList images={images} />
                 <ContentCard content={content} steps={steps} stepsContent={stepsContent} />
             </div>
         </div>
